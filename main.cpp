@@ -86,9 +86,9 @@ void znaczki() {
     do{
         
 
-        cout << "1. Włącz aplikacje" << "\n";
-        cout << "2. Wyjdź z aplikacji" << "\n";
-        cout << "Wybierz opcję: "; cin >> znaczek;
+        cout << "1. Open aplication" << "\n";
+        cout << "2. Exit the aplication" << "\n";
+        cout << "Choose option: "; cin >> znaczek;
 
         switch(znaczek) {
             case 1:
@@ -100,7 +100,7 @@ void znaczki() {
                 break;
             case 2:
                 system ("cls");
-                cout << "Dziękujemy za skorzystanie z programu" << "\n";
+                cout << "Thank you for using the program" << "\n";
                 Sleep(1000);
                 SetConsoleTextAttribute(hConsole, reset_color);
                 system("cls");
@@ -117,7 +117,8 @@ void znaczki() {
 
 int main() {
     //gotoxy(200,50);
-    SetConsoleTitleA("Otwieranie innej aplikacji");
+    system("cls");
+    SetConsoleTitleA("Open-App");
     ScreenRes();
     system("cls");
     SetConsoleOutputCP(CP_UTF8);
