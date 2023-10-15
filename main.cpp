@@ -100,15 +100,15 @@ void znaczki() {
                 break;
             case 2:
                 system ("cls");
-                cout << "Thank you for using the program" << "\n";
-                Sleep(1000);
+                cout << "Thank you for using the program <3" << "\n";
+                Sleep(1500);
                 SetConsoleTextAttribute(hConsole, reset_color);
                 system("cls");
                 system("exit");
                 break;
             default:
                 system("cls");
-                cout << "Taka opcja nie została dodana" << "\n";
+                cout << "Such an option has not been added" << "\n";
                 system("cls");
                 break;
         }
